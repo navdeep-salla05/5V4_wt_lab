@@ -1,7 +1,6 @@
 const toggleBtn = document.getElementById('btn');
 const storageMsg = document.getElementById('storage-msg');
 
-// Load theme from LocalStorage
 const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme === 'dark') {
@@ -11,7 +10,7 @@ if (currentTheme === 'dark') {
     storageMsg.innerText = "Status: Light Mode (Default)";
 }
 
-// Toggle theme
+
 toggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 
