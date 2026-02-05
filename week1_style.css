@@ -42,7 +42,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     body {
         background-color: pink;
@@ -55,7 +55,7 @@ footer {
     }
 }
 
-/* Dark Mode */
+
 body.dark-mode {
     background-color: #1a1a1a;
     color: #f0f0f0;
